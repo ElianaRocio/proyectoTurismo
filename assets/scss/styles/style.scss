@@ -1,0 +1,101 @@
+$my-light-blue: tint-color($my-blue, 40%);
+$my-dark-blue: shade-color($my-blue, 60%);
+$my-light-red: tint-color($my-red, 30%);
+$my-dark-red: shade-color($my-red, 40%);
+$my-lighter-blue: tint-color($my-blue, 95%);
+$my-lighter-red: tint-color($my-red, 95%);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');//texto
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+.App{
+  display:block;
+}
+//para Nabvar
+.barra{
+  color:white;
+  font-size: 15px;  
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+   }
+.icono{
+  color: white;
+  font-size: 20px;
+}
+
+//para slider
+.titulo{
+  color: white;
+  background-color: $my-light-blue;
+  opacity:0.8;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bolder;
+  font-size: 40px;  
+}
+.texto{
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+.texto3{
+  color:$my-blue;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+//para paquetes
+.texto1{
+  color:$my-dark-blue;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+.tcos{
+  color:$my-dark-red;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+.btn{
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+}
+.titulo2{
+  color:$my-light-red;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bolder;
+  font-size: 50px; 
+}
+.titulo1{
+  color:$my-light-blue;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bolder;
+  font-size: 50px; 
+}
+.menu{
+  font-family: 'Dosis', sans-serif;
+  font-weight: bolder;
+  font-size: 20px; 
+}
+.fondo1{
+  background-color: $my-lighter-blue;
+}
+.fondo{
+  background-color: $my-lighter-red;
+}
+.fondo2{
+  background-color: $my-red;
+}
+
+.fondo3{
+  background-color: $my-blue;
+}
+.icono2{
+  color: $my-red;
+  font-size: 20px;
+}
+.titulo3{
+  color:$my-red;
+  font-size: 30px;
+}
+
+
